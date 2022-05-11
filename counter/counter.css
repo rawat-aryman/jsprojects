@@ -1,0 +1,39 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter{
+  padding : auto;
+  border : solid 4px;
+  text-align: center;
+  display: flex;
+  min-height: 30vh;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  /* align-items: baseline; */
+  width: 20vw;
+  border-radius: 100%;
+}
+
+#count{
+  height: 100px;
+  width: 100px;
+  border: solid 2px;
+  border-radius: 10px;
+  font-size: 70px;
+  text-align: center;
+}
+
+img{
+  height: 50px;
+  width: 50px;
+}
